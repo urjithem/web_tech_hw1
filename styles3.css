@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  color: white;
+  font-family: "Comfortaa";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+.header {
+  list-style-type: none;
+  overflow: hidden;
+  display: block;
+  background-color: #12141c;
+  height: 75px;
+  white-space: nowrap;
+  text-overflow: clip;
+  padding-left: 400px;
+  color: white;
+  text-shadow: #f47920 1px 1px;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section1 {
+  background-image: url("./images/rodeo-drive.jpg");
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  height: 500px;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+}
+
+.section2 {
+  background-color: #212529;
+  height: 800px;
+}
+
+.card-container {
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 1000px;
+}
+
+.card {
+  margin-top: 175px;
+  margin-bottom: 175px;
+  height: 450px;
+  width: 300px;
+  background-color: #12141c;
+  display: block;
+  padding: 10px;
+  float: left;
+  border-radius: 3px;
+  /* box-shadow: 5px 5px #12141c; */
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #12141c;
+  /* margin-left: 30px; */
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.card-text {
+  font-size: medium;
+}
+
+.section3 {
+  background-color: #12141c;
+  height: 576px;
+}
+
+.section3--inner {
+  height: 500px;
+  /* background-color: beige; */
+  /* padding-top: 200px; */
+  margin-left: 100px;
+  width: 1000px;
+  margin-right: 100px;
+  color: white;
+}
+
+.lhs {
+  display: inline-block;
+  margin-top: 150px;
+  height: 276px;
+  width: 490px;
+  /* background-color: blue; */
+}
+
+.rhs {
+  margin-top: 150px;
+  display: inline-block;
+  height: 276px;
+  width: 490px;
+  /* background-color: red; */
+  float: right;
+}
+
+.rhs-img {
+  object-fit: cover;
+  width: 490px;
+}
+
+.section4 {
+  /* height: 850px; */
+  background-color: #212529;
+}
+
+.section4--inner {
+  /* margin-top: 200px; */
+  /* background-color: antiquewhite; */
+  margin-left: 100px;
+  /* height: 600px; */
+  width: 1000px;
+  /* margin-bottom: 150px; */
+}
+
+.upper {
+  /* margin-top: 200px; */
+  width: 1000px;
+  /* display: inline-block; */
+  /* background-color: aqua; */
+  height: 200px;
+}
+.left-img {
+  width: 300px;
+  /* background-color: purple; */
+  height: 200px;
+  float: left;
+  /* object-fit: cover; */
+}
+
+.right-text {
+  width: 650px;
+  margin-left: 50px;
+  float: left;
+  text-align: justify;
+}
+
+.lower {
+  margin-top: 20px;
+  width: 1000px;
+  height: 200px;
+  /* background-color: rebeccapurple; */
+}
+
+.left-text {
+  width: 650px;
+  margin-right: 50px;
+  float: left;
+  text-align: justify;
+}
+.right-img {
+  width: 300px;
+  /* background-color: purple; */
+  height: 200px;
+  float: left;
+}
+
+.holly-img {
+  object-fit: cover;
+  width: 300px;
+}
+
+.beach-img {
+  object-fit: cover;
+  width: 300px;
+}
